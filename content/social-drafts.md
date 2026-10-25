@@ -1,39 +1,50 @@
-# Ready-to-edit social drafts
+# The Brown Print — social posts
 
-Status: prepared, not posted. The project was developed with ChatGPT/Codex assistance. No fabricated time spent, client work or personal learning outcomes are claimed.
+These drafts describe the working project. Attach `media/walkthrough.mp4` or a screenshot when publishing.
 
 ## X profile
 
-Display name: Marvin
-Preferred handle: @mavericklnk (availability not verified; do not assume this belongs to Marvin).
-Bio: Developer in training | HTML, CSS, JavaScript & React | Building toward full-stack development | Learning by building
-Photo: a real head-and-shoulders photo provided by Marvin. No substitute face.
-Header: media/marvin-header.png (1500 × 500).
+- **Display name:** Marvin
+- **Preferred username:** @mavericklnk — availability still needs checking.
+- **Bio:** Developer in training | HTML, CSS, JavaScript & React | Building toward full-stack development | Learning by building
+- **Header:** [Download the Marvin header](../media/marvin-header.png)
+- **Photo:** use your own clear head-and-shoulders photograph.
 
 ## X post
 
-The Brown Print: a responsive HTML/CSS/JS newsletter UI, developed with AI assistance. Desktop → phone, with form validation.
+Small screens need more than smaller text.
+
+The Brown Print uses a two-column layout on desktop and stacked sections on phones, with labelled signup fields and clear validation messages.
 
 Demo: https://marvericklnk.github.io/the-brown-print/
 Code: https://github.com/Marvericklnk/the-brown-print
 
 ## LinkedIn post
 
-I've added The Brown Print to my development portfolio: a newsletter landing page using HTML, CSS and JavaScript, with an Express backend for local signup storage.
+The Brown Print is a newsletter landing page in my development portfolio, built with HTML, CSS and JavaScript.
 
-The project includes responsive layouts, labelled inputs, visible validation errors and a separate thank-you page. The public demo does not save details; the backend runs locally.
+The design uses two columns on desktop and stacks the content on smaller screens. The form has visible labels, validation messages and a separate confirmation page.
 
-I developed this with ChatGPT/Codex assistance. The repository includes five reconstructed learning stages so the structure, styling, responsive rules, interactions and backend can be reviewed separately.
+There are two versions:
+• A public demo that lets visitors try the interface without saving their details.
+• A local Express version that saves signups and checks for duplicate email addresses.
 
-My next step is to explain each part in my own words and practise changing the layout and validation myself.
+The repository includes screenshots, a 40-second walkthrough and five learning stages showing the structure, styling, responsive layout, interactions and backend.
 
-Live demo: https://marvericklnk.github.io/the-brown-print/
-Source: https://github.com/Marvericklnk/the-brown-print
+Developed with ChatGPT/Codex assistance as part of my full-stack training.
 
-## Posting checklist
+Try the demo: https://marvericklnk.github.io/the-brown-print/
+Explore the code: https://github.com/Marvericklnk/the-brown-print
 
-1. Watch the walkthrough and read the code before posting.
-2. Replace or remove any sentence that does not represent your own experience.
-3. Attach media/walkthrough.mp4 or a screenshot.
-4. Add the verified live demo URL from the repository when available.
-5. Keep the AI-assistance disclosure.
+## Media
+
+- [Desktop screenshot](../media/desktop.jpg)
+- [Tablet screenshot](../media/tablet.jpg)
+- [Phone screenshot](../media/phone.jpg)
+- [40-second walkthrough](../media/walkthrough.mp4)
+
+The walkthrough is a captioned slideshow of the website at different sizes, with no audio. The learning stages were reconstructed from the completed design.
+
+## For the next project
+
+Keep a short note while working: the problem, what you changed, and what happened. Use that real example as the next post's story. Add an article only when there is a specific lesson you can explain.
