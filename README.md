@@ -41,8 +41,7 @@ Open http://localhost:3000. Use the Node server rather than Live Server for the 
 - `server.js`: local signup API and static server.
 - `docs/`: public demo; no data collection.
 - `stages/`: educational snapshots.
-- `content/`: X and LinkedIn drafts, technical article, walkthrough plan and account setup checklist.
-- `media/`: screenshots, short captioned video and original profile header.
+- `media/`: website screenshots and a short captioned walkthrough.
 
 ## Technical decisions
 
