@@ -1,2 +1,5 @@
-# the-brown-print
-The Brown Print — responsive newsletter website, reconstructed learning stages, signup backend and project walkthrough.
+# The Brown Print
+
+Reconstructed learning stages of a website developed with ChatGPT/Codex assistance. These commits are made now, not backdated original work.
+
+Stage 01: semantic HTML structure. See stages/01/index.html.
