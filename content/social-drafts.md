@@ -12,11 +12,10 @@ Header: media/marvin-header.png (1500 × 500).
 
 ## X post
 
-The Brown Print: a responsive newsletter landing page built with HTML, CSS and JavaScript, with ChatGPT/Codex assistance.
+The Brown Print: a responsive HTML/CSS/JS newsletter UI, developed with AI assistance. Desktop → phone, with form validation.
 
-Desktop → tablet → phone, plus form validation.
-
-Demo and staged source: https://github.com/Marvericklnk/the-brown-print
+Demo: https://marvericklnk.github.io/the-brown-print/
+Code: https://github.com/Marvericklnk/the-brown-print
 
 ## LinkedIn post
 
@@ -28,7 +27,8 @@ I developed this with ChatGPT/Codex assistance. The repository includes five rec
 
 My next step is to explain each part in my own words and practise changing the layout and validation myself.
 
-Source and demo: https://github.com/Marvericklnk/the-brown-print
+Live demo: https://marvericklnk.github.io/the-brown-print/
+Source: https://github.com/Marvericklnk/the-brown-print
 
 ## Posting checklist
 

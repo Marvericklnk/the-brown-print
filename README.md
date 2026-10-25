@@ -2,6 +2,10 @@
 
 A responsive newsletter landing page by Marvin, developed with ChatGPT/Codex assistance.
 
+[Live demo](https://marvericklnk.github.io/the-brown-print/) · [Responsive preview](https://marvericklnk.github.io/the-brown-print/showcase.html) · [40-second walkthrough](media/walkthrough.mp4)
+
+![Desktop preview](media/desktop.jpg)
+
 ## Try it
 
 The public GitHub Pages version is a **frontend demonstration**. Enter sample details only: it validates the form and opens a demo confirmation page, but does not create a subscription or send emails.
