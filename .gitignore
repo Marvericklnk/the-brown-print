@@ -1,0 +1,5 @@
+node_modules/
+subscribers.json
+subscribers.json.tmp
+.env
+.openai/

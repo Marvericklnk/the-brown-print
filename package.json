@@ -1,0 +1,1 @@
+{"name":"the-brown-print","version":"1.0.0","private":true,"description":"The Brown Print newsletter website","scripts":{"start":"node server.js"},"dependencies":{"express":"^5.1.0"}}
