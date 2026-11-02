@@ -1,6 +1,15 @@
 # The Brown Print
 
-A responsive newsletter landing page by Marvin, developed with ChatGPT/Codex assistance.
+Two responsive designs for the same newsletter brief by Marvin, developed with ChatGPT/Codex assistance.
+
+## One brief, two design approaches
+
+- **Design 01:** editorial split layout, warm cream surfaces and a story-led presentation.
+- **Design 02:** stacked layout, dark brown surfaces and a focused signup card.
+
+[Compare both designs](https://marvericklnk.github.io/the-brown-print/designs.html) · [Design 01](https://marvericklnk.github.io/the-brown-print/) · [Design 02](https://marvericklnk.github.io/the-brown-print/design-02/)
+
+Design 02 has a separate [local Node/Express implementation](design-02/) with welcome-email and owner newsletter dashboard code. Its public demo sends no email and stores no signup data. Real email delivery is not verified.
 
 [Live demo](https://marvericklnk.github.io/the-brown-print/) · [Responsive preview](https://marvericklnk.github.io/the-brown-print/showcase.html) · [40-second walkthrough](media/walkthrough.mp4)
 
@@ -58,3 +67,4 @@ JSON storage is for this single-process learning project. Before collecting real
 `subscribers.json` and `.env` are excluded from version control. Never upload real subscriber data.
 
 Fonts load from Google Fonts and the workspace photo is hosted on Unsplash. Fallback fonts and background colours remain available when those services cannot load.
+

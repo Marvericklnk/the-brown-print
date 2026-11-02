@@ -1,0 +1,636 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.image {
+    background-image: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1600&q=85");
+    height: 100vh;
+    min-height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.stage {
+    background-color: black;
+    color: white;
+    padding: 30px 20px 50px;
+    text-align: center;
+    
+}
+
+.thebrownshirtguy {
+    padding: 40px 16px;
+    background-color: #14100d;
+    color: #fff8ef;
+    text-align: center;
+    border-bottom: 3px solid #b98458;
+}
+
+.thebrownshirtguy .brand-label {
+    margin: 0 0 12px;
+    color: #d6aa83;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.thebrownshirtguy h1 {
+    margin: 0;
+    font-size: clamp(20px, 5vw, 52px);
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.thebrownshirtguy h1 span {
+    color: #d6aa83;
+}
+
+
+
+.thebrownshirtguy .brand-tagline {
+    max-width: 360px;
+    margin: 16px auto 0;
+    color: #c9bcb0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.heading .design-title {
+    font-size: 55px;
+    line-height: 1;
+    margin: 30px 0;
+}
+
+.intro {
+    max-width: 550px;
+    margin: auto;
+}
+
+.second {
+    background-image: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.second h2,
+.second > p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signup-form {
+    max-width: 400px;
+    margin: 25px auto;
+}
+
+#signup-form input {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.join {
+    width: 100%;
+    padding: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.join:hover {
+    background-color: #333333;
+}
+
+#message {
+    font-weight: bold;
+}
+
+.small-text {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .image {
+        height: 60vh;
+    }
+
+    .heading .design-title {
+        font-size: 40px;
+    }
+
+    .second {
+        padding: 40px 15px;
+    }
+}
+
+
+/* Thank You Page */
+
+.thank-you-page {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.thank-you-card {
+    max-width: 600px;
+}
+
+.brand-name {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.thank-you-card h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.thank-you-card h2 {
+    font-size: 25px;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home:hover {
+    background-color: #dddddd;
+}
+
+@media (max-width: 500px) {
+    .thank-you-card h1 {
+        font-size: 40px;
+    }
+
+    .thank-you-card h2 {
+        font-size: 21px;
+    }
+}
+
+/* Main page colours and typography */
+
+body {
+    background-color: #14100d;
+    color: #fff8ef;
+}
+
+/* Cover image */
+
+.image {
+    height: 65vh;
+    min-height: 280px;
+    max-height: 650px;
+    border-bottom: 1px solid #493425;
+}
+
+/* Shared small headings */
+
+.section-label {
+    margin: 0 0 18px;
+    color: #d6aa83;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1.6;
+}
+
+/* Introduction section */
+
+.stage {
+    padding: 80px 20px;
+    background-color: #14100d;
+    color: #fff8ef;
+    text-align: center;
+}
+
+.heading .design-title {
+    margin: 0;
+    font-size: clamp(28px, 7vw, 64px);
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.15;
+}
+
+.heading .design-title span {
+    color: #d6aa83;
+}
+
+.heading-line {
+    width: 60px;
+    height: 3px;
+    margin: 26px auto;
+    background-color: #b98458;
+}
+
+.intro {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.intro p {
+    margin: 0 0 18px;
+    color: #c9bcb0;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.intro .intro-lead {
+    color: #fff8ef;
+    font-size: clamp(18px, 3vw, 22px);
+    line-height: 1.7;
+}
+
+.intro p:last-child {
+    margin-bottom: 0;
+}
+
+/* Signup section */
+
+.second {
+    padding: 80px 20px;
+    background-color: #211810;
+    background-image: none;
+    text-align: center;
+    border-top: 1px solid #493425;
+}
+
+.signup-card {
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 48px 36px;
+    background-color: #19120e;
+    border: 1px solid #59402d;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.second h2 {
+    margin: 0 0 20px;
+    color: #fff8ef;
+    font-size: clamp(27px, 5vw, 40px);
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+}
+
+.second h2 span {
+    color: #d6aa83;
+}
+
+.signup-description {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #c9bcb0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Form */
+
+#signup-form {
+    max-width: 400px;
+    margin: 30px auto 0;
+    text-align: left;
+}
+
+#signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #eadbcf;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#signup-form input {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 20px;
+    padding: 15px 16px;
+    background-color: #241b15;
+    color: #fff8ef;
+    border: 1px solid #70513b;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#signup-form input::placeholder {
+    color: #b9a99b;
+}
+
+#signup-form input:focus {
+    outline: 2px solid #d6aa83;
+    outline-offset: 2px;
+    border-color: #d6aa83;
+    box-shadow: 0 0 0 4px rgba(214, 170, 131, 0.1);
+}
+
+.join {
+    width: 100%;
+    padding: 16px;
+    background-color: #d6aa83;
+    color: #21150d;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.join:hover {
+    background-color: #e5bc97;
+}
+
+.join:focus-visible {
+    outline: 2px solid #fff8ef;
+    outline-offset: 4px;
+}
+
+.join:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+#message {
+    margin: 14px 0 0;
+    color: #ffb4a6;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+#message:empty {
+    display: none;
+}
+
+.small-text {
+    max-width: 350px;
+    margin: 22px auto 0;
+    color: #b9a99b;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+/* Footer */
+
+footer {
+    padding: 40px 20px;
+    background-color: #100c09;
+    color: #c9bcb0;
+    text-align: center;
+    border-top: 1px solid #493425;
+}
+
+footer .footer-brand {
+    margin: 0 0 10px;
+    color: #fff8ef;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer-brand span {
+    color: #d6aa83;
+}
+
+footer .footer-tagline {
+    margin: 0 0 22px;
+    color: #c9bcb0;
+    font-size: 13px;
+}
+
+footer .footer-copyright {
+    margin: 0;
+    color: #b9a99b;
+    font-size: 11px;
+}
+
+/* Smaller screens */
+
+@media (max-width: 500px) {
+    .image {
+        height: 45vh;
+        min-height: 240px;
+    }
+
+    .stage {
+        padding: 55px 20px;
+    }
+
+    .second {
+        padding: 45px 16px;
+    }
+
+    .signup-card {
+        padding: 32px 20px;
+        border-radius: 14px;
+    }
+}
+
+footer {
+    padding: 20px 16px;
+}
+
+footer .footer-brand {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+footer .footer-tagline {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+footer .footer-copyright {
+    font-size: 11px;
+}
+
+/* Updated thank-you page */
+
+.thank-you-page {
+    min-height: 100vh;
+    min-height: 100svh;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        circle at top,
+        #382619 0%,
+        #14100d 65%
+    );
+    color: #fff8ef;
+    text-align: center;
+}
+
+.thank-you-card {
+    width: 100%;
+    max-width: 580px;
+    padding: 48px 36px;
+    background-color: #19120e;
+    border: 1px solid #59402d;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.thank-you-card .brand-name {
+    margin: 0 0 30px;
+    color: #d6aa83;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    overflow-wrap: anywhere;
+}
+
+.success-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 26px;
+    background-color: #302217;
+    color: #d6aa83;
+    border: 1px solid #b98458;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.thank-you-label {
+    margin: 0 0 14px;
+    color: #d6aa83;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+.thank-you-card h1 {
+    margin: 0 0 18px;
+    font-size: clamp(44px, 9vw, 68px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.1;
+}
+
+.thank-you-card h1 span {
+    color: #d6aa83;
+}
+
+.thank-you-card h2 {
+    margin: 0 0 22px;
+    color: #fff8ef;
+    font-size: clamp(19px, 4vw, 24px);
+    line-height: 1.4;
+}
+
+.thank-you-copy {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.thank-you-copy p {
+    margin: 0 0 14px;
+    color: #c9bcb0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.thank-you-card .back-home {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 16px;
+    padding: 14px 22px;
+    background-color: #d6aa83;
+    color: #21150d;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.thank-you-card .back-home:hover {
+    background-color: #e5bc97;
+}
+
+.thank-you-card .back-home:focus-visible {
+    outline: 2px solid #fff8ef;
+    outline-offset: 4px;
+}
+
+.thank-you-signature {
+    margin: 28px 0 0;
+    padding-top: 20px;
+    color: #b9a99b;
+    border-top: 1px solid #493425;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+@media (max-width: 500px) {
+    .thank-you-page {
+        padding: 24px 16px;
+    }
+
+    .thank-you-card {
+        padding: 32px 20px;
+    }
+}
+/* Keep long brand text and keyboard interactions usable on small screens. */
+.thebrownshirtguy h1, .heading .design-title {overflow-wrap:anywhere;}
+img {max-width:100%;}
+.design-nav {display:flex;justify-content:center;gap:18px;flex-wrap:wrap;padding:14px 16px;background:#100c09;color:#eadbcf;font-size:13px;}
+.design-nav a {color:#eadbcf;text-underline-offset:4px;}
+.demo-note {max-width:400px;margin:20px auto;color:#eadbcf;font-size:13px;}
+.toast-feedback {position:fixed;top:16px;left:16px;max-width:calc(100vw - 32px);padding:14px 18px;background:#942e24;color:white;border-radius:8px;z-index:1000;box-shadow:0 6px 24px #0006;}

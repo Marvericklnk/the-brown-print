@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Brown Print — Design 02</title>
+    <meta name="description" content="Design 02 of The Brown Print: a stacked newsletter landing page with warm brown tones and an accessible signup form.">
+    <link rel="stylesheet" href="styling.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<nav class="design-nav" aria-label="Design comparison"><strong>DESIGN 02</strong><a href="../">Design 01</a><a href="../designs.html">Compare both designs</a></nav>
+    <div class="brown">
+        <div class="thebrownshirtguy">
+            <p class="brand-label">
+                THE BROWN PRINT
+            </p>
+            <h1>THE<span>BROWN</span>SHIRT<span>GUY</span></h1>
+            <p class="brand-tagline">
+                Building, learning and growing — brick by brick.
+            </p>
+        </div>
+        <div class="image" role="img" aria-label="A laptop workspace"></div>
+        <main>
+            <section class="stage">
+                <div class="heading">
+                    <p class="section-label">THE JOURNEY STARTS HERE</p>
+                    <h2 class="design-title">THE<span>BROWN</span>PRINT</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="intro">
+                    <p class="intro-lead">
+                        I'm documenting my journey of building my life,
+                        career and creator business from scratch.
+                    </p>
+
+                    <p>
+                        The wins, the lessons, the experiments,
+                        the behind-the-scenes and the things I don't
+                        always share on social media.
+                    </p>
+                </div>
+            </section>
+
+            <section class="second">
+                <div class="signup-card">
+                    <p class="section-label">LET'S BUILD SOMETHING</p>
+
+                    <h2>
+                        Come build with me,<br>
+                        <span>brick by brick.</span>
+                    </h2>
+
+                    <p class="signup-description">
+                        If you want to stay connected with me beyond
+                        social media, join The Brown Print.
+                    </p>
+
+                    <p class="demo-note" id="demo-note">Portfolio demo — use sample details. No subscription is created and no email is sent.</p>
+                    <form id="signup-form" novalidate aria-describedby="demo-note">
+                        <label for="full-name">Full name</label>
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="fullName"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            maxlength="100"
+                            required
+                        >
+
+                        <label for="email">Email address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            autocomplete="email"
+                            maxlength="254"
+                            required
+                        >
+
+                        <button class="join" type="submit">
+                            Join The Brown Print &rarr;
+                        </button>
+
+                        <p id="message" aria-live="polite"></p>
+                    </form>
+
+                    <p class="small-text">
+                        I won't fill your inbox. You'll only hear from me
+                        when I have something worth sharing.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer-brand">THE<span>BROWN</span>PRINT</p>
+            <p class="footer-tagline">One journey. One brick at a time.</p>
+            <p class="footer-copyright">
+                &copy; 2026 Mavericklink. All rights reserved.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
