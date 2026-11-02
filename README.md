@@ -2,7 +2,27 @@
 
 Two responsive designs for the same newsletter brief by Marvin, developed with ChatGPT/Codex assistance.
 
-## One brief, two design approaches
+## Why I built this
+
+My brother, known on social media as TheBrownShirtGuy, wanted an email audience so he could stay connected with followers even if he lost access to a social account. After seeing the newsletter page he created with a website service, I challenged myself to build an alternative.
+
+I built the initial HTML/CSS page and kept revising it around his specific feedback about layout and presentation. When I got stuck, I asked my instructor for guidance with styling and troubleshooting, sometimes showing the page to explain the problem. I took a break when frustrated, returned with new ideas, and continued improving the design.
+
+The result is one project explored through two visual approaches. My experience included building the initial page, working through feedback, debugging and iterating. Later implementation, testing and portfolio preparation also involved AI assistance. The educational stages below were reconstructed later and are not a historical record of these iterations.
+
+### What this experience demonstrates
+
+- Translating a real person's audience needs into a website brief.
+- Revising a design in response to specific feedback.
+- Seeking instructor guidance and applying it to practical problems.
+- Persistence through debugging and returning to improve earlier work.
+- Exploring two layouts for the same goal, rather than presenting them as unrelated projects.
+
+### Current outcome
+
+Two public frontend demos and reviewable backend/dashboard source. Email delivery is not yet configured and verified. No production audience, business impact or subscriber-growth results are claimed.
+
+## One project, two design approaches
 
 - **Editorial Design:** editorial split layout, warm cream surfaces and a story-led presentation.
 - **Stacked Design:** stacked layout, dark brown surfaces and a focused signup card.
@@ -19,7 +39,7 @@ Stacked Design has a separate [local Node/Express implementation](design-02/) wi
 
 The public GitHub Pages version is a **frontend demonstration**. Enter sample details only: it validates the form and opens a demo confirmation page, but does not create a subscription or send emails.
 
-The complete local Express version saves signups to a private JSON file. It does not send emails.
+The original local Express version (`server.js`) saves signups to a private JSON file without sending email. The separate stacked-design backend includes email and dashboard code; real email delivery still needs configuration and testing.
 
 ## Development, layer by layer
 
