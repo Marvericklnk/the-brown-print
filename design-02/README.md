@@ -1,6 +1,6 @@
-# The Brown Print — Design 02
+# The Brown Print — Stacked Design
 
-The same newsletter brief explored through a second layout: a stacked cover image, centred introduction and a focused signup card. Design 01 uses an editorial split layout; Design 02 uses a dark brown palette and a vertical reading flow.
+The same newsletter brief explored through a second layout: a stacked cover image, centred introduction and a focused signup card. Editorial Design uses an editorial split layout; Stacked Design uses a dark brown palette and a vertical reading flow.
 
 ## Run locally
 

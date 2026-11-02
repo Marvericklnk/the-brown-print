@@ -4,12 +4,12 @@ Two responsive designs for the same newsletter brief by Marvin, developed with C
 
 ## One brief, two design approaches
 
-- **Design 01:** editorial split layout, warm cream surfaces and a story-led presentation.
-- **Design 02:** stacked layout, dark brown surfaces and a focused signup card.
+- **Editorial Design:** editorial split layout, warm cream surfaces and a story-led presentation.
+- **Stacked Design:** stacked layout, dark brown surfaces and a focused signup card.
 
-[Compare both designs](https://marvericklnk.github.io/the-brown-print/designs.html) · [Design 01](https://marvericklnk.github.io/the-brown-print/) · [Design 02](https://marvericklnk.github.io/the-brown-print/design-02/)
+[Compare both designs](https://marvericklnk.github.io/the-brown-print/designs.html) · [Editorial Design](https://marvericklnk.github.io/the-brown-print/) · [Stacked Design](https://marvericklnk.github.io/the-brown-print/design-02/)
 
-Design 02 has a separate [local Node/Express implementation](design-02/) with welcome-email and owner newsletter dashboard code. Its public demo sends no email and stores no signup data. Real email delivery is not verified.
+Stacked Design has a separate [local Node/Express implementation](design-02/) with welcome-email and owner newsletter dashboard code. Its public demo sends no email and stores no signup data. Real email delivery is not verified.
 
 [Live demo](https://marvericklnk.github.io/the-brown-print/) · [Responsive preview](https://marvericklnk.github.io/the-brown-print/showcase.html) · [40-second walkthrough](media/walkthrough.mp4)
 

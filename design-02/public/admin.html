@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Newsletter studio | The Brown Print</title><link rel="stylesheet" href="/admin.css"><script defer src="/admin.js"></script></head>
+<body>
+<header><a href="/">THE<span>BROWN</span>PRINT</a><span class="owner">OWNER STUDIO</span><button id="logout" class="secondary" hidden>Log out</button></header>
+<main>
+<section id="login" class="card login"><p class="eyebrow">YOUR WORDS. YOUR COMMUNITY.</p><h1>Welcome <em>back.</em></h1><p class="muted">Sign in to write to the people building alongside you.</p><form id="login-form"><label for="password">Dashboard password</label><input id="password" type="password" autocomplete="current-password" required><button>Open my dashboard →</button></form></section>
+<div id="studio" hidden>
+<section class="welcome"><p class="eyebrow">KEEP THE CONVERSATION GOING</p><h1>A little update.<br><em>A lasting connection.</em></h1><p class="muted">Write once. Make every greeting personal.</p></section>
+<div class="layout"><section class="card"><p class="eyebrow">01 / YOUR MESSAGE</p><h2>What’s new?</h2><form id="compose"><label for="subject">Email subject</label><input id="subject" maxlength="150" placeholder="A new chapter of The Brown Print" required><label for="message">Your message</label><p class="hint">Keep {{fullName}} where you want each person’s registered name.</p><textarea id="message" maxlength="20000" rows="12" required>Hello {{fullName}},
+
+I have a new update to share with you.
+
+Thank you for building with me, brick by brick.
+
+Mavericklink</textarea><button>Preview message →</button></form></section>
+<section class="card"><p class="eyebrow">02 / YOUR COMMUNITY</p><h2>Who’s it for?</h2><p id="count" class="muted"></p><label class="choice"><input type="radio" name="mode" value="all" checked> Send to everyone</label><label class="choice"><input type="radio" name="mode" value="selected"> Choose subscribers</label><label for="search">Find a subscriber</label><input id="search" type="search" placeholder="Search by name or email"><div id="recipients" class="recipient-list"></div><p class="hint">Each person gets a separate email. Addresses stay private. Up to 100 recipients per campaign.</p></section></div>
+<section id="preview" class="card" hidden><p class="eyebrow">03 / CHECK BEFORE YOU SEND</p><h2 id="preview-subject"></h2><p id="preview-count" class="muted"></p><label for="preview-person">Preview as</label><select id="preview-person"></select><pre id="preview-text"></pre><p class="hint">An unsubscribe link is added to every email.</p><button id="send">Send this message</button><button id="edit" class="secondary">Back to editing</button></section>
+<section class="card history"><p class="eyebrow">YOUR RECENT UPDATES</p><h2>Sending history</h2><p class="hint">“Accepted” means the mail server accepted the email; it does not confirm inbox delivery. No automatic retries.</p><div id="history"></div></section>
+</div><p id="notice" role="status" aria-live="polite"></p>
+</main><footer>THE BROWN PRINT · One journey. One brick at a time.</footer>
+<dialog id="confirmation"><h2>Ready to send?</h2><p id="confirmation-text"></p><p>This action sends real emails.</p><button id="confirm-send">Yes, send now</button><button id="cancel-send" class="secondary">Keep editing</button></dialog>
+</body></html>
